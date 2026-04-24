@@ -16,7 +16,7 @@ public class CustomSelectionSort {
 		for (int i = 0; i < length - 1; i++) {
 			int minIndex = i;
 			
-			// Inner loop to track second value (j) being compared to i
+			// Inner loop searches the remaining unsorted portion of the array for the smallest value
 			for (int j = i + 1; j < length; j++) {
 				
 				// Use comparison value returned from Comparator to determine swap of objects
