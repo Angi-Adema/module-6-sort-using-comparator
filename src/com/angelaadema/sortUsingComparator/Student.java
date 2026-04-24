@@ -1,5 +1,7 @@
 package com.angelaadema.sortUsingComparator;
 
+// Create the Student class to serve as a blueprint of the 
+// student objects
 public class Student {
 
 	// Declare variables
