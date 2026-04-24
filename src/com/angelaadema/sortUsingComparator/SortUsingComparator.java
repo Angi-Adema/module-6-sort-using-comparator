@@ -46,5 +46,4 @@ public class SortUsingComparator {
 			System.out.println(student);
 		}
 	}
-
 }
