@@ -1,6 +1,6 @@
 package com.angelaadema.sortUsingComparator;
 
-public class StudentInfo {
+public class Student {
 
 	// Declare variables
 	private int rollno;
@@ -8,7 +8,7 @@ public class StudentInfo {
 	private String address;
 	
 	// Initialize variables using constructor
-	StudentInfo(int rollno, String name, String address) {
+	Student(int rollno, String name, String address) {
 		this.rollno = rollno;
 		this.name = name;
 		this.address = address;
