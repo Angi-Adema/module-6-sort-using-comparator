@@ -20,6 +20,30 @@ public class SortUsingComparator {
 		studentList.add(new Student(107, "Tammy", "Jebel Wy."));
 		studentList.add(new Student(108, "Wilma", "Stone St."));
 		studentList.add(new Student(109, "Mary", "Vaughn St."));
+		
+		// Sort the studentList by name using CustomSelectionSort and NameSort Comparator
+		CustomSelectionSort.sort(studentList, new NameSort());
+		
+		// Print statement to print list based on name
+		System.out.println("Objects sorted by name: ");
+		
+		// Use enhanced for loop to loop through and print ArrayList of objects
+		for (Student student : studentList) {
+			System.out.println(student);
+		}
+		
+		System.out.println();
+		
+		// Sort the studentList by roll number using CustomSelectionSort and RollnoSort Comparator
+		CustomSelectionSort.sort(studentList,  new RollnoSort());
+		
+		// Print statement to print list based on roll number
+		System.out.println("Objects sorted by roll number: ");
+		
+		// Use enhanced for loop to loop through and print ArrayList of objects
+		for (Student student : studentList) {
+			System.out.println(student);
+		}
 	}
 
 }
