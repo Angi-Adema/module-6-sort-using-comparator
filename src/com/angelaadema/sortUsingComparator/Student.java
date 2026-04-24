@@ -34,5 +34,4 @@ public class Student {
 	public String toString() {
 		return "StudentInfo [rollno=" + rollno + ", name=" + name + ", address=" + address + "]";
 	}
-
 }
