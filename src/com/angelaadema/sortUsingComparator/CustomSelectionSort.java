@@ -1,7 +1,6 @@
 package com.angelaadema.sortUsingComparator;
 
 // IMPORTED LIST INSTEAD OF ARRAYLIST
-//import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
@@ -12,12 +11,12 @@ public class CustomSelectionSort {
 	
 	// OLD CODE: public static void sort(ArrayList<Student> studentList, Comparator<Student> comparator)
 	
-	// REFACTORED THE SORT METHOD TO USE GENERICS SO IT CAN SORT ANY LIST<T> OF OBJECTS WHEN AN IDENTICAL
+	// REFACTORED THE SORT METHOD TO USE GENERICS SO IT CAN SORT ANY LIST<T> OF OBJECTS WHEN A MATCHING
 	// COMPARATOR<T> IS PASSED IN RATHER THAN JUST STUDENT OBJECTS. 
 	// ALSO USED LIST INSTEAD OF ARRAYLIST MAKING METHOD MORE FLEXIBLE
 	 public static <T> void sort(List<T> list, Comparator<T> comparator){
 		
-		// Store size of ArrayList in variable length
+		// Store size of List in variable length
 		int length = list.size();
 		
 		// For loop to track the position of minIndex and unsorted portion of array

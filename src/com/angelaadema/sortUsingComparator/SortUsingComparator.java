@@ -36,7 +36,7 @@ public class SortUsingComparator {
 	// CREATE & RETURN STUDENT OBJECT LIST
 	public static List<Student> createStudentList() {
 		
-		// NEW ArrayList holding student objects
+		// Create a List to hold student objects
 		List<Student> studentList = new ArrayList<>();
 		
 		// Add student objects into the ArrayList
