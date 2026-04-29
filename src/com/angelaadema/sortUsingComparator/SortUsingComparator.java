@@ -39,7 +39,7 @@ public class SortUsingComparator {
 		// Create a List to hold student objects
 		List<Student> studentList = new ArrayList<>();
 		
-		// Add student objects into the ArrayList
+		// Add student objects into the List
 		studentList.add(new Student(107, "Tammy", "Jebel Wy."));
 		studentList.add(new Student(108, "Wilma", "Stone St."));
 		studentList.add(new Student(104, "Joe", "Troy St."));

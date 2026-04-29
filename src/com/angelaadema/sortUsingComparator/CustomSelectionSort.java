@@ -7,12 +7,12 @@ import java.util.List;
 // Use selection sort to sort the objects
 public class CustomSelectionSort {
 
-	// Sort method passing in ArrayList of student objects and Comparator
+	// Sort method passing in a generic List and Comparator
 	
 	// OLD CODE: public static void sort(ArrayList<Student> studentList, Comparator<Student> comparator)
 	
 	// REFACTORED THE SORT METHOD TO USE GENERICS SO IT CAN SORT ANY LIST<T> OF OBJECTS WHEN A MATCHING
-	// COMPARATOR<T> IS PASSED IN RATHER THAN JUST STUDENT OBJECTS. 
+	// COMPARATOR<T> IS PROVIDED, RATHER THAN STUDENT OBJECTS ONLY. 
 	// ALSO USED LIST INSTEAD OF ARRAYLIST MAKING METHOD MORE FLEXIBLE
 	 public static <T> void sort(List<T> list, Comparator<T> comparator){
 		
