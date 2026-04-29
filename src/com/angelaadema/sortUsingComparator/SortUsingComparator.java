@@ -59,7 +59,8 @@ public class SortUsingComparator {
 		printStudentList(studentList);
 	}
 	
-	// REFACTORED TO ADD NEW HELPER METHOD OUTSIDE OF THE MAIN METHOD TO CREATE & RETURN STUDENT LIST
+	// REFACTORED TO ADD NEW HELPER METHOD OUTSIDE OF THE MAIN METHOD TO 
+	// CREATE & RETURN STUDENT OBJECT LIST
 	public static List<Student> createStudentList() {
 		
 		// NEW ArrayList holding student objects
@@ -81,7 +82,7 @@ public class SortUsingComparator {
 		return studentList;
 	}
 	
-	// REFACTORED NEW PRINT METHOD WITH SINGLE LOOP
+	// REFACTORED NEW PRINT METHOD WITH SINGLE LOOP FOR REUSE TO PRINT STUDENT LIST
 	public static void printStudentList(List<Student> studentList) {
 		
 		// Loop through the studentList using enhanced for loop and print full list
