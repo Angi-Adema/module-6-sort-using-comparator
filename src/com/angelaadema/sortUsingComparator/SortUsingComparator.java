@@ -1,13 +1,15 @@
 package com.angelaadema.sortUsingComparator;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SortUsingComparator {
 
 	public static void main(String[] args) {
 		
 		// Create an ArrayList
-		ArrayList<Student> studentList = new ArrayList<>();
+		// REFACTORED TO USE LIST AS TYPE INSTEAD OF ARRAYLIST
+		List<Student> studentList = new ArrayList<>();
 		
 		// Add student objects to the ArrayList
 		studentList.add(new Student(107, "Tammy", "Jebel Wy."));
